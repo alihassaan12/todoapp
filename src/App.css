@@ -2,12 +2,12 @@ body {
   background-image: linear-gradient(to right, #ef9e36, #41445d);
 }
 .icons {
-  height: 7vh;
-  width: 6%;
-  background-image: linear-gradient(to right, #d54a19, #f6a037);
-  border-radius: 100%;
-  padding: 9px;
-  margin: 0px 4px;
+  height: 7vh !important;
+  width: 6% !important;
+  background-image: linear-gradient(to right, #d54a19, #f6a037) !important;
+  border-radius: 100% !important;
+  padding: 9px !important;
+  margin: 0px 4px !important;
 }
 :focus-visible {
   outline: none !important;
@@ -40,4 +40,15 @@ h1 {
   font-weight: bolder;
   color: #f6a037;
   text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .icons {
+    height: 7vh !important;
+    width: 17% !important;
+    background-image: linear-gradient(to right, #d54a19, #f6a037) !important;
+    border-radius: 100% !important;
+    padding: 4px !important;
+    margin: 0px 4px !important;
+  }
 }

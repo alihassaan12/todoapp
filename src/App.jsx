@@ -36,13 +36,13 @@ function App() {
   return (
     <div className="container-fluid">
       <div className="row justify-content-center align-items-center">
-        <div className="col-7">
+        <div className="col-sm-12 col-lg-7">
           <div className="card p-4 rounded-0 mt-4">
             <h1>TO DO APP</h1>
-            <form className="text-end" onSubmit={editTask ? edit : Add}>
+            <form className="text-center" onSubmit={editTask ? edit : Add}>
               {editData ? (
                 <input
-                  className="col-10 input-feild"
+                  className="col-12 input-feild"
                   type="text"
                   value={editData.data}
                   onChange={(e) => {
@@ -51,7 +51,7 @@ function App() {
                 />
               ) : (
                 <input
-                  className="col-10 input-feild"
+                  className="col-12 input-feild"
                   type="text"
                   value={input}
                   onChange={(e) => {
@@ -59,7 +59,7 @@ function App() {
                   }}
                 />
               )}
-              <button className="btn ms-5">
+              <button className="btn ms-5 my-3">
                 {editTask ? "Edit Task" : "Add Task"}
               </button>
             </form>
