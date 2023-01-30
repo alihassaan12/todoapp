@@ -1,0 +1,43 @@
+body {
+  background-image: linear-gradient(to right, #ef9e36, #41445d);
+}
+.icons {
+  height: 7vh;
+  width: 6%;
+  background-image: linear-gradient(to right, #d54a19, #f6a037);
+  border-radius: 100%;
+  padding: 9px;
+  margin: 0px 4px;
+}
+:focus-visible {
+  outline: none !important;
+}
+.card {
+  background-color: #1a1c35 !important;
+}
+.input-feild {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bolder;
+}
+.btn {
+  background-image: linear-gradient(to right, #d54a19, #f6a037);
+  border: 0;
+  border-radius: 0;
+  color: white;
+  font-weight: bolder;
+}
+li {
+  color: white;
+  font-weight: bolder;
+  border-bottom: 1px solid;
+}
+h1 {
+  font-weight: bolder;
+  color: #f6a037;
+  text-align: center;
+}
